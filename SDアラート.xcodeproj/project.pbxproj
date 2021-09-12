@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8920BAAC26A7973C004A74A0 /* GuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920BAAB26A7973C004A74A0 /* GuestView.swift */; };
+		8969958326AEA8CE009E3E17 /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969958226AEA8CE009E3E17 /* FeedBackView.swift */; };
+		897263E5267DC25F00F5CA5B /* DoorSensorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897263E4267DC25F00F5CA5B /* DoorSensorApp.swift */; };
+		897263E7267DC25F00F5CA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897263E6267DC25F00F5CA5B /* ContentView.swift */; };
+		897263E9267DC26100F5CA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897263E8267DC26100F5CA5B /* Assets.xcassets */; };
+		897263EC267DC26100F5CA5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897263EB267DC26100F5CA5B /* Preview Assets.xcassets */; };
+		897263F4267DE38700F5CA5B /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897263F3267DE38700F5CA5B /* HouseView.swift */; };
+		89B4BAD726A7A56200C20926 /* SystemSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4BAD626A7A56100C20926 /* SystemSettingView.swift */; };
+		89B4BAD926A7BF6200C20926 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4BAD826A7BF6100C20926 /* TextView.swift */; };
+		89DFB96E26A6D24600079119 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFB96D26A6D24500079119 /* TimelineView.swift */; };
+		89DFB97226A6DB0800079119 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFB97126A6DB0800079119 /* DeviceView.swift */; };
+		89DFB97426A6E44B00079119 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFB97326A6E44B00079119 /* SettingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8920BAAB26A7973C004A74A0 /* GuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestView.swift; sourceTree = "<group>"; };
+		8969958226AEA8CE009E3E17 /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
+		897263E1267DC25F00F5CA5B /* SDアラート.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDアラート.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897263E4267DC25F00F5CA5B /* DoorSensorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorSensorApp.swift; sourceTree = "<group>"; };
+		897263E6267DC25F00F5CA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		897263E8267DC26100F5CA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897263EB267DC26100F5CA5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		897263ED267DC26100F5CA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897263F3267DE38700F5CA5B /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		89B4BAD626A7A56100C20926 /* SystemSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSettingView.swift; sourceTree = "<group>"; };
+		89B4BAD826A7BF6100C20926 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		89DFB96D26A6D24500079119 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		89DFB97126A6DB0800079119 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		89DFB97326A6E44B00079119 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		897263DE267DC25F00F5CA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897263D8267DC25F00F5CA5B = {
+			isa = PBXGroup;
+			children = (
+				897263E3267DC25F00F5CA5B /* DoorSensor */,
+				897263E2267DC25F00F5CA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897263E2267DC25F00F5CA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897263E1267DC25F00F5CA5B /* SDアラート.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897263E3267DC25F00F5CA5B /* DoorSensor */ = {
+			isa = PBXGroup;
+			children = (
+				897263E4267DC25F00F5CA5B /* DoorSensorApp.swift */,
+				897263E6267DC25F00F5CA5B /* ContentView.swift */,
+				897263F3267DE38700F5CA5B /* HouseView.swift */,
+				89DFB97326A6E44B00079119 /* SettingView.swift */,
+				8969958226AEA8CE009E3E17 /* FeedBackView.swift */,
+				89DFB97126A6DB0800079119 /* DeviceView.swift */,
+				8920BAAB26A7973C004A74A0 /* GuestView.swift */,
+				89B4BAD626A7A56100C20926 /* SystemSettingView.swift */,
+				89DFB96D26A6D24500079119 /* TimelineView.swift */,
+				89B4BAD826A7BF6100C20926 /* TextView.swift */,
+				897263E8267DC26100F5CA5B /* Assets.xcassets */,
+				897263ED267DC26100F5CA5B /* Info.plist */,
+				897263EA267DC26100F5CA5B /* Preview Content */,
+			);
+			path = DoorSensor;
+			sourceTree = "<group>";
+		};
+		897263EA267DC26100F5CA5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				897263EB267DC26100F5CA5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897263E0267DC25F00F5CA5B /* SDアラート */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897263F0267DC26100F5CA5B /* Build configuration list for PBXNativeTarget "SDアラート" */;
+			buildPhases = (
+				897263DD267DC25F00F5CA5B /* Sources */,
+				897263DE267DC25F00F5CA5B /* Frameworks */,
+				897263DF267DC25F00F5CA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDアラート";
+			productName = DoorSensor;
+			productReference = 897263E1267DC25F00F5CA5B /* SDアラート.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897263D9267DC25F00F5CA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					897263E0267DC25F00F5CA5B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 897263DC267DC25F00F5CA5B /* Build configuration list for PBXProject "SDアラート" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897263D8267DC25F00F5CA5B;
+			productRefGroup = 897263E2267DC25F00F5CA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897263E0267DC25F00F5CA5B /* SDアラート */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		897263DF267DC25F00F5CA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897263EC267DC26100F5CA5B /* Preview Assets.xcassets in Resources */,
+				897263E9267DC26100F5CA5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		897263DD267DC25F00F5CA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B4BAD726A7A56200C20926 /* SystemSettingView.swift in Sources */,
+				89DFB97426A6E44B00079119 /* SettingView.swift in Sources */,
+				897263F4267DE38700F5CA5B /* HouseView.swift in Sources */,
+				8920BAAC26A7973C004A74A0 /* GuestView.swift in Sources */,
+				89DFB96E26A6D24600079119 /* TimelineView.swift in Sources */,
+				89DFB97226A6DB0800079119 /* DeviceView.swift in Sources */,
+				89B4BAD926A7BF6200C20926 /* TextView.swift in Sources */,
+				8969958326AEA8CE009E3E17 /* FeedBackView.swift in Sources */,
+				897263E7267DC25F00F5CA5B /* ContentView.swift in Sources */,
+				897263E5267DC25F00F5CA5B /* DoorSensorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		897263EE267DC26100F5CA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		897263EF267DC26100F5CA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897263F1267DC26100F5CA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DoorSensor/Preview Content\"";
+				DEVELOPMENT_TEAM = 85BD4DD93U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DoorSensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OrenoDoorSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		897263F2267DC26100F5CA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DoorSensor/Preview Content\"";
+				DEVELOPMENT_TEAM = 85BD4DD93U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DoorSensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OrenoDoorSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897263DC267DC25F00F5CA5B /* Build configuration list for PBXProject "SDアラート" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897263EE267DC26100F5CA5B /* Debug */,
+				897263EF267DC26100F5CA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897263F0267DC26100F5CA5B /* Build configuration list for PBXNativeTarget "SDアラート" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897263F1267DC26100F5CA5B /* Debug */,
+				897263F2267DC26100F5CA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897263D9267DC25F00F5CA5B /* Project object */;
+}
