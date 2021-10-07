@@ -17,7 +17,8 @@ struct FeedBackView: View {
             Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("送信")
             }
-        }.navigationBarTitle("フィードバック",displayMode: .inline)
+        }
+        .navigationBarTitle("フィードバック",displayMode: .inline)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }

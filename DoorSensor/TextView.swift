@@ -10,12 +10,13 @@ import SwiftUI
 struct TextView: View {
     var body: some View {
         NavigationView {
-        VStack {
-        Text("2021/07/21/17:59")
-            .fontWeight(.ultraLight)
-        Text("version 1.1.2に更新されました.")
+            VStack {
+                Text("2021/07/21/17:59")
+                    .fontWeight(.ultraLight)
+                Text("version 1.1.2に更新されました.")
+            }
         }
-        }.hideNavigationBar()
+        .hideNavigationBar()
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }

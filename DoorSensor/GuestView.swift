@@ -13,7 +13,7 @@ struct GuestView: View {
         Form {
             Section(header: Image("Hito").clipShape(Circle())) {
                 HStack {
-                Text("ユーザー名")
+                    Text("ユーザー名")
                     Spacer()
                     Text("山田太郎")
                         .fontWeight(.ultraLight)

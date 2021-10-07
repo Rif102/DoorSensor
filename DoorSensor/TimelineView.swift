@@ -11,34 +11,34 @@ struct TimelineView: View {
     var body: some View {
         NavigationView {
             Form {
-        NavigationLink(destination: DeviceView()) {
-            HStack {
-                VStack {
-                    Text("デバイス1")
-                    Text("通知内容")
-                        .font(.subheadline)
+                NavigationLink(destination: DeviceView()) {
+                    HStack {
+                        VStack {
+                            Text("デバイス1")
+                            Text("通知内容")
+                                .font(.subheadline)
+                        }
+                        Spacer()
+                            .padding(.trailing, 10.0)
+                        Text("17:39")
+                            .fontWeight(.ultraLight)
+                    }
                 }
-                Spacer()
-                    .padding(.trailing, 10.0)
-                Text("17:39")
-                    .fontWeight(.ultraLight)
-            }
-        }
-            
-                
-        NavigationLink(destination: DeviceView()) {
-            HStack {
-                VStack {
-                    Text("デバイス2").foregroundColor(Color.green)
-                    Text("通知内容")
-                        .font(.subheadline)
+                    
+                        
+                NavigationLink(destination: DeviceView()) {
+                    HStack {
+                        VStack {
+                            Text("デバイス2").foregroundColor(Color.green)
+                            Text("通知内容")
+                                .font(.subheadline)
+                        }
+                        Spacer()
+                            .padding(.trailing, 10.0)
+                        Text("17:36")
+                            .fontWeight(.ultraLight)
+                    }
                 }
-                Spacer()
-                    .padding(.trailing, 10.0)
-                Text("17:36")
-                    .fontWeight(.ultraLight)
-            }
-        }
                 
                 
                 NavigationLink(destination: DeviceView()) {
